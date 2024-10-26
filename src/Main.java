@@ -23,7 +23,7 @@ public class Main {
             System.out.println(year +  " год является високосным");
         }
         System.out.println("Задача 6");
-        for (int i = 7; i <= 98; i = i +7) {
+        for (int i = 7; i <= 98; i = i + 7) {
             System.out.println(i);
         }
         System.out.println("Задача 7");
@@ -45,6 +45,13 @@ public class Main {
             total1 = total1 + salary1;
             System.out.println("Месяц " + h + " сумма накоплений равна " + total1 + " рублей");
         }
+        System.out.println("Задача 10");
+        int n = 2;
+        for (int m = 1; m <=10; m++) {
+            System.out.println(n + " * " + m + " = " + n * m);
+
+        }
+
 
     }
 
